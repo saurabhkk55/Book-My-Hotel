@@ -4,14 +4,15 @@ import Header from '@/components/layouts/header.layout'
 import Footer from '@/components/layouts/footer.layout'
 import HotelDetails from './hotel-details'
 import { SigninPage, SignupPage } from './auth'
+import Search from '@/features/search'
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Header />
-        {/* <Home /> */}
+        <Home />
         {/* <HotelDetails /> */}
-        <SigninPage />
+        {/* <SigninPage /> */}
         {/* <SignupPage /> */}
         <Footer />
     </div>

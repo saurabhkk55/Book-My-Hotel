@@ -1,4 +1,4 @@
-import { Bed, CarFront, CarTaxiFront, Check, CircleAlert, Diamond, DiamondIcon, DiamondMinusIcon, FerrisWheel, Gem, GemIcon, Heart, IndianRupee, Plane, Star, Zap } from "lucide-react";
+import { Bed, CarFront, CarTaxiFront, Check, CircleAlert, Diamond, DiamondIcon, DiamondMinusIcon, Eye, EyeClosed, EyeClosedIcon, EyeOff, EyeOffIcon, FerrisWheel, Gem, GemIcon, Heart, IndianRupee, MapPin, Plane, Star, X, Zap } from "lucide-react";
 
 export default {
   bed: Bed,
@@ -76,4 +76,9 @@ export default {
   indianRupee: IndianRupee,
   zap: Zap,
   circleAlert: CircleAlert,
+  eyeOpen: Eye,
+  eyeClosed: EyeClosedIcon,
+  eyeOff: EyeOffIcon,
+  mapPin: MapPin,
+  clear: X,
 };

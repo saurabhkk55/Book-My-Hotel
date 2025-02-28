@@ -5,7 +5,10 @@ import Signup from './signup'
 
 const SigninPage = () => {
   return (
-    <AuthLayout>
+    <AuthLayout 
+      pageTitle="Welcome Back"
+      pageDescription="Please enter your details to Sign in"
+    >
       <Signin />
     </AuthLayout>
   )
@@ -13,7 +16,10 @@ const SigninPage = () => {
 
 const SignupPage = () => {
   return (
-    <AuthLayout>
+    <AuthLayout
+      pageTitle="Create Account"
+      pageDescription="Please fill the form to Sign up"
+    >
       <Signup />
     </AuthLayout>
   )
