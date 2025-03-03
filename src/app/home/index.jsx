@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <>
       <HeroSection />
-      <Search />
+      <div className='-mt-8 relative z-[2]'>
+        <Search />
+      </div>
       <TrendingDestination />
     </>
   )
